@@ -19,13 +19,13 @@ Api desenvolvida com as seguintes ferramentas:
  
  ### GET
  
- - /sw/planetas/
+  ### /sw/planetas/
  
  - **Descrição:** Lista de todos os planetas armazenados no banco de dados.
  - **Código de Resposta:** 200 - Ok.
  - **Retorno:** JSON com a lista de todos os planetas.
  
- - /sw/planetas/id/{id}/
+  ### /sw/planetas/id/{id}/
  
  - **Descrição:** Lista o planeta relacionado ao id pesquisado.
  - **Código de retorno:** 200 - ok; 404 - Erro.
@@ -39,7 +39,7 @@ Api desenvolvida com as seguintes ferramentas:
  
  ### POST
  
- - sw/planetas/
+  ### sw/planetas/
  
  - **Descrição:** Insere um novo planeta no banco de dados.
  - **Requisição:** JSON com os dados relacionados ao planeta (nome, clima, terreno).
@@ -47,7 +47,7 @@ Api desenvolvida com as seguintes ferramentas:
  
  ### DELETE
  
- - /sw/planetas/
+ ### /sw/planetas/
  
  - **Descrição:** Faz a exclusão do planeta baseado no Id do mesmo.
  - **Código de retorno:** 200 - ok; 404 - Erro.
