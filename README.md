@@ -31,7 +31,7 @@ Api desenvolvida com as seguintes ferramentas:
  - **Código de retorno:** 200 - ok; 404 - Erro.
  - **Retorno:** JSON com o planeta listado pelo Id.
  
- - /sw/planetas/nome/{nome}/
+ ### /sw/planetas/nome/{nome}/
  
  - **Descrição:** Lista o planeta relacionado ao nome pesquisado.
  - **Código de retorno:** 200 - ok; 404 - Erro.
