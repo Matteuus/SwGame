@@ -1,5 +1,5 @@
 # SwGame
- ## Projeto proposta pela b2w para listar planetas baseado em Star Wars
+ ## Projeto proposto pela b2w digital para listar planetas baseado no universo de Star Wars
 Api desenvolvida com as seguintes ferramentas:
 
 - Spring boot
