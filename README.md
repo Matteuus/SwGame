@@ -21,37 +21,37 @@ Finalidade:
  
  - /sw/planetas/
  
- **Descrição:** Lista de todos os planetas armazenados no banco de dados
- **Código de Resposta:** 200 - Ok
- **Retorno:** JSON com a lista de todos os planetas
+ **Descrição:** Lista de todos os planetas armazenados no banco de dados.
+ **Código de Resposta:** 200 - Ok.
+ **Retorno:** JSON com a lista de todos os planetas.
  
  - /sw/planetas/id/{id}/
  
- **Descrição:** Lista o planeta relacionado ao id pesquisado
- **Código de retorno:** 200 - ok; 404 - Erro
- **Retorno:** JSON com o planeta listado pelo Id
+ **Descrição:** Lista o planeta relacionado ao id pesquisado.
+ **Código de retorno:** 200 - ok; 404 - Erro.
+ **Retorno:** JSON com o planeta listado pelo Id.
  
  - /sw/planetas/nome/{nome}/
  
- **Descrição:** Lista o planeta relacionado ao nome pesquisado
- **Código de retorno:** 200 - ok; 404 - Erro
- **Retorno:** JSON com o planeta listado pelo respectivo Nome
+ **Descrição:** Lista o planeta relacionado ao nome pesquisado.
+ **Código de retorno:** 200 - ok; 404 - Erro.
+ **Retorno:** JSON com o planeta listado pelo respectivo Nome.
  
  ### POST
  
  - sw/planetas/
  
- **Descrição:** Insere um novo planeta no banco de dados
- **Requisição:** JSON com os dados relacionados ao planeta (nome, clima, terreno)
- **Código de retorno:** 200 - ok; 404 - Erro
+ **Descrição:** Insere um novo planeta no banco de dados.
+ **Requisição:** JSON com os dados relacionados ao planeta (nome, clima, terreno).
+ **Código de retorno:** 200 - ok; 404 - Erro.
  
  ### DELETE
  
  - /sw/planetas/
  
- **Descrição:** Faz a exclusão do planeta baseado no Id do mesmo
- **Código de retorno:** 200 - ok; 404 - Erro
- **Retorno:** Retorna um inteiro boleano onde o 1 significa True
+ **Descrição:** Faz a exclusão do planeta baseado no Id do mesmo.
+ **Código de retorno:** 200 - ok; 404 - Erro.
+ **Retorno:** Retorna um inteiro boleano onde o 1 significa True.
  
  
  
