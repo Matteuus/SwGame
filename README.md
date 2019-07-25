@@ -43,7 +43,7 @@
  
  - **Descrição:** Insere um novo planeta no banco de dados.
  - **Requisição:** JSON com os dados relacionados ao planeta (nome, clima, terreno).
- - **Código de retorno:** 200 - ok; 404 - Erro.
+ - **Código de retorno:** 200 - ok;  400 - Dados incorretos ou faltando; 404 - Erro; 415 - Tipo não suportado;.
  
  ### DELETE
  
